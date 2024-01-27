@@ -1,0 +1,140 @@
+/* Global Styles */
+
+:root {
+    --tan: #EDE2CD;
+    --white: #ffffff;
+    --brown: #6A4F4B;
+    --green: #5B6B4F;
+    --darkBrown: #351C06;
+    --black: #333333;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--black);
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+
+header {
+    background-color: var(--tan);
+    color: var(--darkBrown);
+    padding: 1em 0;
+    text-align: center;
+    height: auto;
+}
+
+header img {
+    max-width: 250px;
+    height: auto;
+}
+
+/* fixed header styles */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.hide-logo {
+    display: none;
+}
+
+.added-padded {
+    margin-top: 350px;
+}
+
+/* Nav Styles */
+nav {
+    margin: auto;
+    margin-bottom: 0px;
+    width: 60%;
+    min-width: 600px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navLink{
+    display: inline;
+    color: var(--darkBrown);
+    font-size: 1.25em;
+    font-weight: light;
+}
+
+nav ul li a {
+    color: var(--darkBrown);
+    text-decoration: none;
+}
+
+/* dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--white);
+    text-align: left;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content p {
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Nav Button Styles */
+.button {
+    background-color: var(--green);
+    padding: 10px 20px;
+    color: var(--white);
+    cursor: pointer;
+    box-shadow: 0 0 0 2px transparent;
+}
+
+.button:hover {
+    background-color: var(--tan);
+    color: var(--black);
+    box-shadow: 0 0 0 2px var(--green);
+}
+
+/* Section Styles */
+
+section {
+    padding: 2em;
+}
+
+footer {
+    background-color: #6a4f4b;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design and other specific styles can be added here */
