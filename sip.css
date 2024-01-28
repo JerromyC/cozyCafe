@@ -31,15 +31,20 @@
 
     .mobileNavBar_container {
         display: block;
+        position: relative;
+        z-index: 100;
     }
 
     .mobileNavBar {
+        position: absolute;
+        bottom: -550px;
+        left: 0;
         width: 100vw;
         height: auto;
-        z-index: 10000;
         background-color: var(--tan);
     }
 
+    /* Styles removed/added during hide/show functionality openSesame() */
     .mobileNavBar-hidden {
         display: none;
     }
@@ -52,12 +57,15 @@
     }
 
     .mobileNavBar_heading_hours {
-        padding-top: 5px;
-        align-items: center;
+        background-color: var(--white);
+        width: auto;
+        padding: 10px;
     }
 
     .mobileNavBar_heading_hours li {
         font-size: .75em;
+        margin-top: 10px;
+        text-align: left;
     }
 
     .mobileNavBar_link {

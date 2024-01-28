@@ -163,13 +163,13 @@ footer {
 @media screen and (min-width: 250px) and (max-width: 750px) {
     header {
         width: 100%;
-        overflow: hidden;
     }
 
     header img {
         max-width: 250px;
         width: auto;
         height: auto;
+        margin: auto;
     }
     
     nav {
