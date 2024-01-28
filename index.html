@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Cozy Nook Café</title>
+    <link rel="stylesheet" href="sip.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="page">
@@ -27,36 +28,60 @@
                 <li class="navLink"><a href="#menu">Menu</a></li>
                 <li class="navLink"><a href="#contact">Contact</a></li>
                 <li class="navLink"><a href="#blog">Blog</a></li>
-                <li class="navLink button">Order Online</li>
+                <li class="navLink dropdownLinks">
+                    <a class="dropdownBtn">More</a>
+                    <div class="dropdown-content"></div>
+                </li>
+                <li class="navLink show-on-mobile button">Order Online</li>
             </ul>
         </nav>
+        <!-- Mobile navBar -->
+        <button class="mobileNavBar_button">MENU</button>
+        <div class="mobileNavBar_container">
+            <!-- add the hidden style back later!!!!!!!!!!!! -->
+            <nav class="mobileNavBar">
+                <ul>
+                    <li class="mobileNavBar_link"><a href="#about">About Us</a></li>
+                    <li class="mobileNavBar_link"><a href="#menu">Menu</a></li>
+                    <li class="mobileNavBar_link"><a href="#contact">Contact</a></li>
+                    <li class="mobileNavBar_link"><a href="#blog">Blog</a></li>
+                    <li class="mobileNavBar_link">
+                        <span class="mobileNavBar_heading">Hours of Operation</span>
+                        <ul class="mobileNavBar_heading_hours">
+                            <li>Monday: 4am - 5pm</li>
+                            <li>Tuesday: 4am - 5pm</li>
+                            <li>Wednesday: 4am - 5pm</li>
+                            <li>Thursday: 4am - 5pm</li>
+                            <li>Friday: 4am - 5pm</li>
+                            <li>Saturday: 5am - 2pm</li>
+                            <li>Sunday: Closed</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <main>
+        <section id="about" style="height: 1500px;">
+            <h1>Welcome to The Cozy Nook Café</h1>
+            <p>About the café...</p>
+        </section>
 
-    <section id="about" style="height: 1500px;">
-        <h1>Welcome to The Cozy Nook Café</h1>
-        <p>About the café...</p>
-    </section>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <!-- Menu items here -->
+        </section>
 
-    <section id="menu">
-        <h2>Our Menu</h2>
-        <!-- Menu items here -->
-    </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <!-- Contact information here -->
+        </section>
 
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <!-- Gallery images here -->
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <!-- Contact information here -->
-    </section>
-
-    <section id="blog">
-        <h2>From Our Blog</h2>
-        <!-- Blog entries here -->
-    </section>
-
+        <section id="blog">
+            <h2>From Our Blog</h2>
+            <!-- Blog entries here -->
+        </section>
+    </main>
     <footer>
         <p>&copy; 2024 The Cozy Nook Café</p>
     </footer>

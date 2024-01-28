@@ -19,3 +19,35 @@ window.onscroll = function() {
         page.classList.remove('added-padded');
     }
 };
+
+
+// Responsive navbar function 
+
+// function for mobile navBar open/close
+function openSesame() {
+    const mobileNavButton = document.querySelector('.mobileNavBar_button');
+    const mobileNavBar = document.querySelector('.mobileNavBar');
+
+    mobileNavButton.addEventListener('click', function() {
+        if(mobileNavBar.classList.contains('mobileNavBar-hidden')) {
+            mobileNavBar.classList.remove('mobileNavBar-hidden');
+            mobileNavBar.classList.add('mobileNavBar-visible');
+        } else {
+            mobileNavBar.classList.remove('mobileNavBar-visible');
+            mobileNavBar.classList.add('mobileNavBar-hidden')
+        }
+    })
+}
+// wait for document to fully load
+document.addEventListener('DOMContentLoaded', function() {
+    openSesame();
+}); 
+
+// function openSesame() {
+//     const mobileNavButton = document.getElementsByClassName('mobileNavBar_button')[0];
+//     const mobileNavBar = document.querySelector('.mobileNavBar');
+
+//     mobileNavButton.addEventListener('click', function() {
+//         mobileNavBar.classList.add('mobileNavBar-visible');
+//     });
+// }
