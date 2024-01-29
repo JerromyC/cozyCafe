@@ -7,6 +7,7 @@ header {
     color: var(--darkBrown);
     padding: 1em 0;
     text-align: center;
+    width: 100%;
     height: auto;
 }
 
@@ -34,7 +35,6 @@ nav {
     margin: auto;
     margin-bottom: 0px;
     width: 100%;
-    min-width: 600px;
 }
 
 nav ul {
@@ -127,14 +127,13 @@ nav ul li a {
     }
     
     nav {
-        max-width: 100%;
+        max-width: 100vw;
         width: auto;
         text-align: center;
     }
     
     nav ul {
-        flex-direction: column;
-        width: 100vw; 
+        width: auto; 
         padding: 0; 
     }
     
