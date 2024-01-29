@@ -21,108 +21,9 @@ body {
     padding: 0;
 }
 
-/* Header Styles */
 
-header {
-    background-color: var(--tan);
-    color: var(--darkBrown);
-    padding: 1em 0;
-    text-align: center;
-    height: auto;
-}
 
-header img {
-    max-width: 250px;
-    height: auto;
-}
-
-/* fixed header styles */
-.fixed-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-.hide-logo {
-    display: none;
-}
-
-.added-padded {
-    margin-top: 350px;
-}
-
-/* Nav Styles */
-nav {
-    margin: auto;
-    margin-bottom: 0px;
-    width: 100%;
-    min-width: 600px;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    width: auto;
-}
-
-.navLink{
-    display: inline;
-    color: var(--darkBrown);
-    font-size: 1.25em;
-    font-weight: light;
-    margin-right: 20px;
-}
-
-.navLink:last-of-type {
-    margin-right: 0px;
-}
-
-nav ul li a {
-    color: var(--darkBrown);
-    text-decoration: none;
-}
-
-/* Navlink dropdown styles */
-
-.dropdownLinks {
-    display: none;
-}
-
-.dropdownBtn {
-    color: red;
-}
-
-/* Hours of operation dropdown styles */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: var(--white);
-    text-align: left;
-    min-width: 300px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content p {
-    color: black;
-    padding: 10px 25px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Nav Button Styles */
+/* Button Styles */
 .button {
     background-color: var(--green);
     padding: 10px 20px;
@@ -161,35 +62,5 @@ footer {
 
 
 @media screen and (min-width: 250px) and (max-width: 750px) {
-    header {
-        width: 100%;
-    }
 
-    header img {
-        max-width: 250px;
-        width: auto;
-        height: auto;
-        margin: auto;
-    }
-    
-    nav {
-        width: 100%;
-        text-align: center;
-    }
-    
-    nav ul {
-        flex-direction: column;
-        width: 100vw; 
-        padding: 0; 
-    }
-    
-    .navLink {
-        display: none;
-    }
-    
-    .show-on-mobile {
-        display: block;
-        width: auto;
-        text-align: center;
-    }
 }
