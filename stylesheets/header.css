@@ -1,4 +1,4 @@
-@import url(./style.css);
+@import url(../style.css);
 
 /* Header Styles */
 
@@ -117,18 +117,18 @@ nav ul li a {
 
 @media screen and (max-width: 750px) {
     header {
-        width: 100%;
+        width: 100vw;
     }
 
     header img {
-        max-width: 250px;
-        width: auto;
+        width: 250px;
         height: auto;
         margin: auto;
     }
     
     nav {
-        width: 100%;
+        max-width: 100%;
+        width: auto;
         text-align: center;
     }
     
@@ -169,6 +169,7 @@ nav ul li a {
     .mobileNavBar_container {
         display: block;
         position: relative;
+        width: 100%;
         z-index: 100;
     }
 
@@ -176,7 +177,7 @@ nav ul li a {
         position: absolute;
         bottom: -550px;
         left: 0;
-        width: 100vw;
+        width: 100%;
         height: auto;
         background-color: var(--tan);
     }
@@ -188,6 +189,10 @@ nav ul li a {
 
     .mobileNavBar-visible {
         display: block;
+    }
+
+    .mobileNavBar-list {
+        width: auto;
     }
 
     .mobileNavBar_heading {

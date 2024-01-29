@@ -1,5 +1,10 @@
-/* Global Styles */
+/* global style sheet; importing all other stylesheets here as well */
+@import url(./stylesheets/header.css);
 
+/* styles in progress */
+@import url(./sip.css);
+
+/* Global Styles */
 :root {
     --tan: #EDE2CD;
     --white: #ffffff;
@@ -19,9 +24,8 @@ body {
     background-color: var(--white);
     margin: 0;
     padding: 0;
+    width: 100vw;
 }
-
-
 
 /* Button Styles */
 .button {
@@ -39,13 +43,12 @@ body {
 }
 
 /* Section Styles */
-
 section {
     padding: 2em;
 }
 
 #about, #menu, #contact, #blog {
-    /* display: none; */
+    display: none;
 }
 
 footer {
