@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+/* !!!!!!!!!!!Will need to take a look after but for now the Hero section is hidden */
+#hero {
+    display: none;
+}
+
 .hero-wrapper {
     display: flex;
     flex-direction: column;

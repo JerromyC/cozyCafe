@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Cozy Nook Café</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body id="page">
     <header id="mainHeader">
@@ -62,11 +62,33 @@
     </header>
     <main>
         <section id="hero">
-            <div class="hero-wrapper"></div>
+            <div class="hero-wrapper">
+                <!-- overlay -->
+                <div class="hero-wrapperOverlay"></div>
+                <!-- text -->
+                <h1 class="hero-heading">The Cozy Nook</h1>
+                <h2 class="hero-subHeading">Where every cup tells a story.</h2>
+                <p class="hero-subText">Naturally sourced ingrediants - Vegan and Cruelty free options</p>
+            </div>
         </section>
-        <section id="about" style="height: 1500px;">
-            <h1>Welcome to The Cozy Nook Café</h1>
-            <p>About the café...</p>
+        <section id="about">
+            <div class="about-subsection about-subsectionMain">
+                <h2 class="about-subsectionMain_heading">Your Home Away From Home</h1>
+                <p class="about-subsectionMain_subtext">Nestled in the heart of our vibrant community, The Cozy Nook Café is more than just a coffee shop – it's a warm embrace. Founded in 2022, our café has become a cherished sanctuary for coffee aficionados, families, and friends seeking a haven to unwind, connect, and indulge in the finer flavors of life.</p>
+            </div>
+            <div class="about-subsection about-section_style01">
+                <h3 class="about-subsectionHeading">Our Philosophy</h3>
+                <p class="about-subsectionParagraph">Rooted in a passion for exceptional coffee and a warm, welcoming atmosphere, we at The Cozy Nook are committed to sustainability and quality. Our beans are ethically sourced, celebrating the best of global coffee culture, while our diverse menu features locally sourced, fresh ingredients that cater to every palate, including vegan and gluten-free options.</p>
+            </div>
+            <div class="about-subsection about-section_style02">
+                <h3 class="about-subsectionHeading">A Nook for Everyone</h3>
+                <p class="about-subsectionParagraph">The Cozy Nook's ambiance is a carefully crafted tapestry of rustic charm and modern minimalism, offering a peaceful retreat for all. Whether it's enjoying a quiet cup of coffee, a casual meet-up with friends, or participating in one of our community events, our café is your sanctuary in the hustle and bustle of daily life.</p>
+            </div>
+            <div class="about-subsection about-section_style03">
+                <h3 class="about-subsectionHeading">Join Us On Discord</h3>
+                <p class="about-subsectionParagraph">We're more than just a café; we're a community. At The Cozy Nook Café, every visit is an opportunity to savor life's little pleasures, connect with others, and create lasting memories. Come in and find your nook!</p>
+                <button class="about-subsection_button">Click here to go to our Discord</button>
+            </div>
         </section>
 
         <section id="menu">
@@ -87,6 +109,7 @@
     <footer>
         <p>&copy; 2024 The Cozy Nook Café</p>
     </footer>
-    <script src="script.js"></script>
+    <!-- Turned script off for now !!!!!!!!!!!!!!!!!!!!!! -->
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>

@@ -1,5 +1,6 @@
 /* global style sheet; importing all other stylesheets here as well */
 @import url(./stylesheets/header.css);
+@import url(./stylesheets/hero.css);
 
 /* styles in progress */
 @import url(./sip.css);
@@ -9,6 +10,7 @@
     --tan: #EDE2CD;
     --white: #ffffff;
     --brown: #6A4F4B;
+    --brownOpaque: #6A4F4BA6;
     --green: #5B6B4F;
     --darkBrown: #351C06;
     --black: #333333;
@@ -25,6 +27,13 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
 }
 
 /* Button Styles */
@@ -43,11 +52,12 @@ body {
 }
 
 /* Section Styles */
-section {
-    padding: 2em;
-}
 
 #about, #menu, #contact, #blog {
+   /* padding: 20px */
+}
+
+#menu, #contact, #blog {
     display: none;
 }
 
