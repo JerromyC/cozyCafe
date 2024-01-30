@@ -1,0 +1,39 @@
+/* mobile first - adding ABOUT section */
+@import url(style.css);
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-subsectionMain {
+
+}
+
+.about-subsectionMain_heading {
+
+}
+
+.about-subsectionMain_subtext {
+
+}
+
+.about-subsection {
+    padding: 25px;
+}
+
+.about-subsectionRight {
+    color: var(--white);
+    background-color: var(--brown);
+}
+
+.about-subsectionLeft {
+    background-color: var(--tan)
+}
+
+.about-subsection_button {
+    width: 100px;
+    height: 25px;
+    background-color: var(--green);
+    color: var(--white);
+}
