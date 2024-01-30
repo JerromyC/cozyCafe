@@ -1,6 +1,7 @@
 /* global style sheet; importing all other stylesheets here as well */
 @import url(./stylesheets/header.css);
 @import url(./stylesheets/hero.css);
+@import url(./stylesheets/about.css);
 
 /* styles in progress */
 @import url(./sip.css);
