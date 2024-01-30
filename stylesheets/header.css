@@ -13,7 +13,7 @@ header {
 
 /* !!!!!!!!!!Image was casuing issues - WILL NEED TO TAKE A LOOK SOON!!!!!!! */
 header {
-    display: none;
+    /* display: none; */
 }
 
 header img {

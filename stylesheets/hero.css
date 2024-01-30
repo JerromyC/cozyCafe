@@ -7,7 +7,7 @@
 
 /* !!!!!!!!!!!Will need to take a look after but for now the Hero section is hidden */
 #hero {
-    display: none;
+    /* display: none; */
 }
 
 .hero-wrapper {
