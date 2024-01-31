@@ -1,5 +1,5 @@
 /* mobile first - adding ABOUT section */
-@import url(style.css);
+@import url(../style.css);
 
 .spacer-small {
     display: none;

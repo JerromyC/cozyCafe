@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Cozy Nook Café</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body id="page">
     <header id="mainHeader">
@@ -108,7 +108,7 @@
             <!-- Menu items here -->
             <div class="menu-sectionsWrapper">
                 <div class="menu-section menu-section01">
-                    <h3 class="menu-sectionHeading">Coffee</h3>
+                    <h3 class="menu-sectionHeading">Beverages</h3>
                     <ul class="menu-sectionList">
                         <li class="menu-sectionListItem">
                             <h4 class="menu-sectionListItem_heading menu-sectionListItem_headingNoMarginTop">Classic Espresso - <em>$3.00</em></h4>
@@ -130,41 +130,52 @@
                             <h4 class="menu-sectionListItem_heading">Iced Americano - <em>$3.50</em></h4>
                             <p class="menu-sectionListItem_paragraph">A refreshing and bold coffee, combining espresso shots with cold water, served over ice.</p>
                         </li>
-                    </ul>
-                </div>
-                <div class="menu-section menu-section02">
-                    <h3 class="menu-sectionHeading">Snacks</h3>
-                    <ul class="menu-sectionList">
                         <li class="menu-sectionListItem">
-                            <h4 class="menu-sectionListItem_heading menu-sectionListItem_headingNoMarginTop">Homemade Blueberry Muffin - <em>$2.50</em></h4>
-                            <p class="menu-sectionListItem_paragraph">Freshly baked daily, these blueberry muffins are moist, flavorful, and perfect with your morning coffee.</p>
+                            <h4 class="menu-sectionListItem_heading">Fruit Smoothie - <em>$5.00</em></h4>
+                            <p class="menu-sectionListItem_paragraph">Our smoothies are made to order from fresh fruit bought each morning from the local markets - Strawberry, Banana, Mango, Blueberry, Raspberry, and any combination!</p>
                         </li>
                         <li class="menu-sectionListItem">
-                            <h4 class="menu-sectionListItem_heading">Gluten-Free Chocolate Chip Cookie - <em>$2.00</em></h4>
-                            <p class="menu-sectionListItem_paragraph">Delicious and chewy, these gluten-free cookies are filled with rich chocolate chips, satisfying your sweet tooth without the gluten.</p>
-                        </li>
-                        <li class="menu-sectionListItem">
-                            <h4 class="menu-sectionListItem_heading">Vegan Banana Bread - <em>$3.00</em></h4>
-                            <p class="menu-sectionListItem_paragraph">A vegan delight, this banana bread is moist, hearty, and filled with the natural sweetness of ripe bananas.</p>
+                            <h4 class="menu-sectionListItem_heading">Tea or Water - <em>$2.00</em></h4>
+                            <p class="menu-sectionListItem_paragraph">We also offer various Tea's or fresh local spring water - Earl Gray, Green Tea (with or without citrus), Jasmine, and Chai. </p>
                         </li>
                     </ul>
                 </div>
-                <div class="menu-section menu-section03">
-                    <h3 class="menu-sectionHeading">Combos</h3>
-                    <ul class="menu-sectionList">
-                        <li class="menu-sectionListItem">
-                            <h4 class="menu-sectionListItem_heading menu-sectionListItem_headingNoMarginTop"><h4>Breakfast Combo - <em>$7.50</em></h4>
-                            <p class="menu-sectionListItem_paragraph">Pair our classic espresso with a homemade blueberry muffin for a quick, satisfying start to your day.</p>
-                        </li>
-                        <li class="menu-sectionListItem">
-                            <h4 class="menu-sectionListItem_heading">Afternoon Delight - <em>$8.00</em></h4>
-                            <p class="menu-sectionListItem_paragraph">Enjoy our refreshing iced Americano paired with a gluten-free chocolate chip cookie for a delightful afternoon treat.</p>
-                        </li>
-                        <li class="menu-sectionListItem">
-                            <h4 class="menu-sectionListItem_heading">Tea Time Special - <em>$7.00</em></h4>
-                            <p class="menu-sectionListItem_paragraph">Cozy up with our aromatic chai tea latte and a slice of vegan banana bread, perfect for a relaxing break.</p>
-                        </li>
-                    </ul>
+                <!-- Need a wrapper to Isolate the snacks and Combos menus -->
+                <div class="menu-sectionsWrapper_inner">
+                    <div class="menu-section menu-section02">
+                        <h3 class="menu-sectionHeading">Snacks</h3>
+                        <ul class="menu-sectionList">
+                            <li class="menu-sectionListItem">
+                                <h4 class="menu-sectionListItem_heading menu-sectionListItem_headingNoMarginTop">Homemade Blueberry Muffin - <em>$2.50</em></h4>
+                                <p class="menu-sectionListItem_paragraph">Freshly baked daily, these blueberry muffins are moist, flavorful, and perfect with your morning coffee.</p>
+                            </li>
+                            <li class="menu-sectionListItem">
+                                <h4 class="menu-sectionListItem_heading">Gluten-Free Chocolate Chip Cookie - <em>$2.00</em></h4>
+                                <p class="menu-sectionListItem_paragraph">Delicious and chewy, these gluten-free cookies are filled with rich chocolate chips, satisfying your sweet tooth without the gluten.</p>
+                            </li>
+                            <li class="menu-sectionListItem">
+                                <h4 class="menu-sectionListItem_heading">Vegan Banana Bread - <em>$3.00</em></h4>
+                                <p class="menu-sectionListItem_paragraph">A vegan delight, this banana bread is moist, hearty, and filled with the natural sweetness of ripe bananas.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-section menu-section03">
+                        <h3 class="menu-sectionHeading">Combos</h3>
+                        <ul class="menu-sectionList">
+                            <li class="menu-sectionListItem">
+                                <h4 class="menu-sectionListItem_heading menu-sectionListItem_headingNoMarginTop"><h4>Breakfast Combo - <em>$7.50</em></h4>
+                                <p class="menu-sectionListItem_paragraph">Pair our classic espresso with a homemade blueberry muffin for a quick, satisfying start to your day.</p>
+                            </li>
+                            <li class="menu-sectionListItem">
+                                <h4 class="menu-sectionListItem_heading">Afternoon Delight - <em>$8.00</em></h4>
+                                <p class="menu-sectionListItem_paragraph">Enjoy our refreshing iced Americano paired with a gluten-free chocolate chip cookie for a delightful afternoon treat.</p>
+                            </li>
+                            <li class="menu-sectionListItem">
+                                <h4 class="menu-sectionListItem_heading">Tea Time Special - <em>$7.00</em></h4>
+                                <p class="menu-sectionListItem_paragraph">Cozy up with our aromatic chai tea latte and a slice of vegan banana bread, perfect for a relaxing break.</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
