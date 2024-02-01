@@ -1,0 +1,89 @@
+@import url(../style.css);
+
+#contact {
+    padding: 7.5vw;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.contact-mainWrapper {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact-heading {
+
+}
+
+.contact-subHeading {
+
+}
+
+.contact-info {
+
+}
+
+.contact-info span {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.contact-info p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    background-color: var(--tan);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.contact-formInput {
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    min-height: 25px;
+    width: 200px;
+    max-width: 100%;
+    margin-left: auto;
+    background-color: var(--green);
+    color: var(--white);
+
+}
+
+.contact-newsletterSignup {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-newsletterSignup_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-newsletterSignup_wrapper input {
+    width: 70%;
+}
+
+.contact-newsletterSignup_wrapper button {
+    width: 25%;
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px) {
+
+}
+
+@media screen and (min-width: 751px) {
+    #contact {
+        padding: 7.5vw;
+        background-color: var(--black);
+        color: var(--white);
+    }
+}
