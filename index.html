@@ -14,13 +14,13 @@
                 <li class="navLink dropdown">
                     <a class="dropbtn">Hours of Operation &#x25BC</a>
                     <div class="dropdown-content">
-                        <p>Monday: 4am - 5pm</p>
-                        <p>Tuesday: 4am - 5pm</p>
-                        <p>Wednesday: 4am - 5pm</p>
-                        <p>Thursday: 4am - 5pm</p>
-                        <p>Friday: 4am - 5pm</p>
+                        <p>Monday: 4am - 4pm</p>
+                        <p>Tuesday: 4am - 4pm</p>
+                        <p>Wednesday: 4am - 4pm</p>
+                        <p>Thursday: 4am - 4pm</p>
+                        <p>Friday: 4am - 4pm</p>
                         <p>Saturday: 5am - 2pm</p>
-                        <p>Sunday: Closed</p>
+                        <p>Sunday: 5am - 2pm</p>
                     </div>
                 </li>
                 <li class="navLink"><a href="#about">About Us</a></li>
@@ -180,26 +180,35 @@
         </section>
 
         <section id="contact">
-            <h2 class="contact-heading">Get in Touch</h2>
-            <p class="contact-subHeading">We'd love to hear from you! Whether you have a question or need assistance, feel free to contact us.</p>
+            <div class="contact-mainWrapper">
+                <h2 class="contact-heading">Get in Touch</h2>
+                <p class="contact-subHeading">We'd love to hear from you! Whether you have a question or need assistance, feel free to contact us.</p>
 
-            <div class="contact-info">
-                <p><strong>Address:</strong> 123 Coffee Lane, Flavor Town, XY 12345</p>
-                <p><strong>Phone:</strong> (123) 456-7890</p>
-                <p><strong>Email:</strong> hello@cozynookcafe.com</p>
-                <p><strong>Hours:</strong> Mon-Fri: 7am - 6pm, Sat-Sun: 8am - 4pm</p>
-            </div>
+                <div class="contact-info">
+                    <span>Address:</span>
+                    <p>123 Coffee Lane, Flavor Town, XY 12345</p>
+                    <span>Phone:</span>
+                    <p>(123) 456-7890</p>
+                    <span>Email:</span>
+                    <p>hello@cozynookcafe.com</p>
+                    <span>Hours:</span>
+                    <p>Mon-Fri: 4am - 4pm, Sat-Sun: 5am - 2pm</p>
+                </div>
 
-            <form class="contact-form">
-                <input class="contact-formInput" type="text" name="name" placeholder="Your Name">
-                <input class="contact-formInput" type="email" name="email" placeholder="Your Email">
-                <textarea class="contact-formInput" name="message" placeholder="Your Message"></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+                <form class="contact-form">
+                    <input class="contact-formInput" type="text" name="name" placeholder="Your Name">
+                    <input class="contact-formInput" type="email" name="email" placeholder="Your Email">
+                    <textarea class="contact-formInput" name="message" placeholder="Your Message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
 
-            <div class="contact-newsletterSignup">
-                <input type="email" placeholder="Your Email for Newsletter">
-                <button type="submit">Subscribe</button>
+                <div class="contact-newsletterSignup">
+                    <p>Join our newsletter for updates and coupons!</p>
+                    <div class="contact-newsletterSignup_wrapper">
+                        <input type="email" placeholder="Your Email for Newsletter">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
             </div>
         </section>
 
