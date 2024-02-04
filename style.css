@@ -3,6 +3,7 @@
 @import url(./stylesheets/hero.css);
 @import url(./stylesheets/about.css);
 @import url(./stylesheets/menu.css);
+@import url(./stylesheets/contact.css);
 
 /* styles in progress */
 @import url(./sip.css);
@@ -64,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header, #hero, #about, #menu, #contact {
-    display: none;
+    /* display: none; */
 }
 
 footer {
