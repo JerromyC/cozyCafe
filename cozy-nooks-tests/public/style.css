@@ -1,0 +1,86 @@
+/* global style sheet; importing all other stylesheets here as well */
+@import url(./stylesheets/header.css);
+@import url(./stylesheets/hero.css);
+@import url(./stylesheets/about.css);
+@import url(./stylesheets/menu.css);
+@import url(./stylesheets/contact.css);
+
+/* styles in progress */
+@import url(./sip.css);
+
+/* Global Styles */
+:root {
+    --tan: #EDE2CD;
+    --white: #ffffff;
+    --brown: #6A4F4B;
+    --brownOpaque: #6A4F4BA6;
+    --green: #5B6B4F;
+    --darkBrown: #351C06;
+    --black: #333333;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--black);
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.spacer-small {
+    /* width: 25px; */
+}
+
+/* Button Styles */
+.button {
+    background-color: var(--green);
+    padding: 10px 20px;
+    color: var(--white);
+    cursor: pointer;
+    box-shadow: 0 0 0 2px transparent;
+}
+
+.button:hover {
+    background-color: var(--tan);
+    color: var(--black);
+    box-shadow: 0 0 0 2px var(--green);
+}
+
+/* Section Styles */
+
+#about, #menu, #contact, #blog {
+   /* padding: 20px */
+}
+
+header, #hero, #about, #menu, #contact {
+    /* display: none; */
+}
+
+footer {
+    background-color: #6a4f4b;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design and other specific styles can be added here */
+
+
+@media screen and (min-width: 250px) and (max-width: 750px) {
+
+}

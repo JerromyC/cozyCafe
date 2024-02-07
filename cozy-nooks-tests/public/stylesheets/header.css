@@ -1,0 +1,224 @@
+@import url(../style.css);
+
+/* Header Styles */
+
+header {
+    background-color: var(--tan);
+    color: var(--darkBrown);
+    padding: 1em 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+/* !!!!!!!!!!Image was casuing issues - WILL NEED TO TAKE A LOOK SOON!!!!!!! */
+header {
+    /* display: none; */
+}
+
+header img {
+    max-width: 250px;
+    width: auto;
+    height: auto;
+}
+
+/* fixed header styles */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.hide-logo {
+    display: none;
+}
+
+.added-padded {
+    margin-top: 350px;
+}
+
+/* Nav Styles */
+nav {
+    margin: auto;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: auto;
+}
+
+.navLink{
+    display: inline;
+    color: var(--darkBrown);
+    font-size: 1.25em;
+    font-weight: light;
+    margin-right: 20px;
+}
+
+.navLink:last-of-type {
+    margin-right: 0px;
+}
+
+nav ul li a {
+    color: var(--darkBrown);
+    text-decoration: none;
+}
+
+/* Navlink dropdown styles */
+
+.dropdownLinks {
+    display: none;
+}
+
+.dropdownBtn {
+    color: red;
+}
+
+/* Hours of operation dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--white);
+    text-align: left;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content p {
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* hiding mobile NavBar on desktop */
+
+.mobileNavBar_container {
+    display: none;
+}
+
+.mobileNavbar {
+    display: none;
+}
+
+.mobileNavBar_button {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        width: 100vw;
+    }
+
+    header img {
+        width: 250px;
+        height: auto;
+        margin: auto;
+    }
+    
+    nav {
+        max-width: 100vw;
+        width: auto;
+        text-align: center;
+    }
+    
+    nav ul {
+        width: auto; 
+        padding: 0; 
+    }
+    
+    .navLink {
+        display: none;
+    }
+    
+    .show-on-mobile {
+        display: block;
+        width: auto;
+        text-align: center;
+    }
+
+    /* mobile NavBar styles */
+
+    .mobileNavBar_button {
+        display: flex;
+        text-align: left;
+        padding: 25px 0px 25px 25px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 110px;
+        width: 200px;
+        color: var(--white);
+        background-color: var(--brown);
+        clip-path: polygon(0 0, 0% 100%, 100% 0);
+        cursor: pointer;
+        z-index: 100000;
+    }
+
+    .mobileNavBar_container {
+        display: block;
+        position: relative;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .mobileNavBar {
+        position: absolute;
+        bottom: -550px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: var(--tan);
+    }
+
+    /* Styles removed/added during hide/show functionality openSesame() */
+    .mobileNavBar-hidden {
+        display: none;
+    }
+
+    .mobileNavBar-visible {
+        display: block;
+    }
+
+    .mobileNavBar-list {
+        width: auto;
+    }
+
+    .mobileNavBar_heading {
+    }
+
+    .mobileNavBar_heading_hours {
+        background-color: var(--white);
+        width: auto;
+        padding: 10px;
+    }
+
+    .mobileNavBar_heading_hours li {
+        font-size: .75em;
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .mobileNavBar_link {
+        color: var(--black);
+        font-size: 1.5em;
+        font-weight: light;
+        margin-top: 30px;
+    }
+}

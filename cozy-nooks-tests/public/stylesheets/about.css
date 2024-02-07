@@ -1,0 +1,219 @@
+/* mobile first - adding ABOUT section */
+@import url(../style.css);
+
+.spacer-small {
+    display: none;
+}
+
+#about {
+
+}
+
+.about-subsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 7.5vw;
+    width: auto;
+    height: auto;
+    min-height: 250px;
+}
+
+.about-subsectionMain {
+    flex-direction: column;
+    min-height: 50px;
+    background-color: var(--tan);
+    color: var(--black);
+}
+
+.about-subsectionMain_heading {
+
+}
+
+.about-subsectionMain_subtext {
+
+}
+
+.about-subsectionInnerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    z-index: 5;
+}
+
+.about-subsectionImage {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .15;
+    background-size: cover;
+}
+
+.about-subsectionImage01 {
+    background-image: url(../assets/image01.png);
+}
+
+.about-subsectionImage02 {
+    /* background-image: url(./assets/image02.png); */
+}
+
+.about-subsectionImage03 {
+    background-image: url(../assets/image03.png);
+}
+
+.about-section_style01 {
+    color: var(--white);
+    background-color: var(--green);
+}
+
+.about-section_style02 {
+    color: var(--white);
+    background-color: var(--brown)
+}
+
+.about-section_style03 {
+    color: var(--white);
+    background-color: var(--black)
+}
+
+.about-subsectionParagraph {
+
+}
+
+.about-subsection_button {
+    width: 100%;
+    height: 25px;
+    margin: auto;
+    background-color: var(--tan);
+    color: var(--brown);
+    font-weight: bold;
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px) {
+    .spacer-small {
+        display: block;
+        width: 7.5vw;
+    }
+
+    .about-subsection {
+        flex-direction: row;
+    }
+
+    .about-subsectionMain {
+        flex-direction: column;
+        min-height: 50px;
+        background-color: var(--tan);
+        color: var(--black);
+    }
+
+    .about-subsectionInnerWrapper {
+        width: 100%;
+    }
+
+    .about-subsectionParagraph {
+
+    }
+
+    .about-subsectionImage {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        min-height: 250px;
+        z-index: 3;
+        background-size: cover;
+        opacity: 1;
+    }
+    
+    .about-subsectionImage01 {
+        background-image: url(../assets/image01.png);
+
+    }
+    
+    .about-subsectionImage02 {
+        background-image: url(../assets/image02.png);
+    }
+    
+    .about-subsectionImage03 {
+    background-image: url(../assets/image03.png);
+    }
+}
+
+@media screen and (min-width: 751px) {
+    .spacer-small {
+        display: none;
+    }
+
+    .about-subsection {
+        position: relative;
+        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+        padding: 0vw;
+        min-height: 500px;
+    }
+
+    .about-subsectionMain {
+        flex-direction: column;
+        min-height: 50px;
+        background-color: var(--tan);
+        color: var(--black);
+        padding: 5vw;
+    }
+
+    .about-subsectionMain_heading {
+
+    }
+    
+    .about-subsectionMain_subtext {
+        width: 60%;
+    }
+
+    .about-section_style01 .about-subsectionInnerWrapper {
+        
+    }
+
+    .about-subsectionInnerWrapper {
+        width: 500px;
+        margin: auto;
+        padding: 5vw;
+        z-index: 3;
+    }
+
+    .about-subsectionParagraph {
+
+    }
+
+    .about-subsectionImage {
+        display: block;
+        position: relative;
+        max-width: 33vw;
+        min-height: 500px;
+        opacity: 1;
+    }
+    
+    .about-subsectionImage01 {
+        background-image: url(../assets/image01.png);
+    }
+    
+    .about-subsectionImage02 {
+        background-image: url(../assets/image02.png);
+    }
+    
+    .about-subsectionImage03 {
+    background-image: url(../assets/image03.png);
+    }
+
+    .about-subsectionImage01, .about-subsectionImage03 {
+        
+    }
+}
