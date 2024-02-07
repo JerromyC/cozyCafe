@@ -1,0 +1,20 @@
+{
+    "name": "cozy-nook-tests",
+    "version": "1.0.0",
+    "description": "Automated testing for The Cozy Nook Café website.",
+    "main": "index.js",
+    "scripts": {
+      "test": "node responsivenessTest.js"
+    },
+    "keywords": [
+      "puppeteer",
+      "automated-tests",
+      "cozy-nook-cafe"
+    ],
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+      "puppeteer": "^13.0.0"
+    }
+  }
+  
